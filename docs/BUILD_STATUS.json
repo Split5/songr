@@ -1,0 +1,10 @@
+{
+  "commit": "4a54834",
+  "built_at": "2026-11-11T10:14:30Z",
+  "result": "ok",
+  "failed_step": "done",
+  "device": "Simon – iPhone (1D920962-79E9-5D8D-8B42-398C727AA1E8)",
+  "log": "~/Library/Logs/navimusic-buildagent.log",
+  "note": "Release build from the GUI session.",
+  "app": "Soengr 1.0.1 (11), se.simonbystrom.navimusic"
+}

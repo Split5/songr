@@ -1,0 +1,10 @@
+flutter_launcher_icons:
+  android: true
+  ios: true
+  macos:
+    generate: true
+    image_path: "docs/app-icon-1024.png"
+  image_path: "docs/app-icon-1024.png"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/branding/splash-mark.png"
+  remove_alpha_ios: true

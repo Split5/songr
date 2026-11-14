@@ -1,0 +1,427 @@
+{
+  "@@locale": "en",
+  "appTitle": "Soengr",
+  "navHome": "Home",
+  "navNew": "New",
+  "navRadio": "Radio",
+  "navLibrary": "Library",
+  "navArtists": "Artists",
+  "navAlbums": "Albums",
+  "navPlaylists": "Playlists",
+  "navFavorites": "Favorites",
+  "tooltipSearch": "Search",
+  "tooltipSettings": "Settings",
+  "dataSaver": "Data saver",
+  "dataSaverSubtitle": "Stream everything above mp3 quality at mp3 quality instead",
+  "sectionRecentlyAdded": "Recently added",
+  "sectionRecentlyPlayedSongs": "Recently played songs",
+  "sectionRecentlyAddedSongs": "Recently added songs",
+  "sectionMostPlayedSongs": "Most played songs",
+  "homeRefreshingAlbums": "Fetching new albums…",
+  "homeEmptyHint": "Sync your Navidrome library to start listening offline.",
+  "navSongs": "Songs",
+  "sectionMostPlayedAlbums": "Most played albums",
+  "sectionRecentlyPlayedAlbums": "Recently played albums",
+  "sectionRecentlyAddedAlbums": "Recently added albums",
+  "sectionFromLibrary": "From your library",
+  "refreshSelection": "New selection",
+  "homeCustomizationTitle": "Customize Home",
+  "homeCustomizationSubtitle": "Content, order and visibility per carousel",
+  "homeHeaderStyleTitle": "Show logo",
+  "homeHeaderStyleSubtitle": "Use the logo instead of Soengr at the top of Home",
+  "appearanceSettingsTitle": "Appearance",
+  "appearanceSettingsSubtitle": "Transparency and blur for the top bar",
+  "topBarTransparencyTitle": "Top bar",
+  "transparencySettingTitle": "Transparency",
+  "transparencySettingHelp": "0% gives a dark surface. 100% lets everything behind it through.",
+  "blurSettingTitle": "Blur",
+  "blurSettingHelp": "0 gives a completely sharp background. Higher values blur it more.",
+  "homeCarouselContentTitle": "Content per carousel",
+  "homeCarouselContentHelp": "Choose Songs or Albums separately for each shelf. Order and visibility are adjusted in the same list.",
+  "homeFocusSongs": "Songs",
+  "homeFocusAlbums": "Albums",
+  "homeSectionsTitle": "Shelves and order",
+  "homeSectionsHelp": "Show or hide shelves and drag the handle to change their order. At least one shelf must remain visible.",
+  "homeSectionRecentlyPlayed": "Recently played",
+  "homeSectionRecentlyAdded": "Recently added",
+  "homeSectionMostPlayed": "Most played",
+  "recommendationsSettingsTitle": "Algorithm",
+  "recommendationsSettingsSubtitle": "Smart features controlled by Navidrome and its plugins",
+  "recommendationVariationTitle": "Variation",
+  "recommendationVariationHelp": "A low value stays close to the seed song. A higher value explores deeper among suggestions that are still related.",
+  "recommendationArtistVarietyTitle": "Artist variety",
+  "recommendationArtistVarietyHelp": "Limits how many songs from the same primary artist may appear in each candidate batch.",
+  "recommendationSongsPerArtist": "{count, plural, =1{1 song per artist} other{{count} songs per artist}}",
+  "@recommendationSongsPerArtist": {"placeholders": {"count": {"type": "int"}}},
+  "recommendationInitialQueueTitle": "Initial queue size",
+  "recommendationInitialQueueHelp": "How many related songs are fetched when you select one song. AutoPlay then continues five at a time.",
+  "filters": "Filters",
+  "filterQuality": "Quality",
+  "filterFormat": "Format",
+  "filterGenre": "Genre",
+  "filterFavorites": "Favorites only",
+  "qualityLossless": "Lossless",
+  "qualityAny": "Any",
+  "qualityLossy": "Lossy",
+  "qualityHiRes": "Hi-Res",
+  "sortBy": "Sort",
+  "sortTitle": "Title",
+  "sortArtist": "Artist",
+  "sortAlbum": "Album",
+  "sortYear": "Year",
+  "sortRecent": "Recently added",
+  "sortRecentlyPlayed": "Recently played",
+  "sortRandom": "Random",
+  "sortDuration": "Longest first",
+  "sortBitRate": "Highest bitrate",
+  "sortPlays": "Most played",
+  "shufflingSongs": "Shuffling songs…",
+  "sortAlbumCount": "Most albums",
+  "clearFilters": "Clear filters",
+  "findSongs": "Find songs",
+  "applyFilters": "Apply",
+  "resetFilters": "Reset",
+  "close": "Close",
+  "songsSearchHint": "Search songs, artists or albums…",
+  "filterYear": "Year",
+  "filterDurationMinutes": "Duration (minutes)",
+  "filterBitRateKbps": "Bitrate (kbps)",
+  "filterMinimum": "From",
+  "filterMaximum": "To",
+  "filterGenreHint": "Pop, rock, jazz…",
+  "noFilteredSongs": "No songs match these filters.",
+  "noFilteredSongsHint": "Try removing one or more filters.",
+  "loadingMoreFailed": "Couldn't load more songs.",
+  "done": "Done",
+  "showMore": "Show more",
+  "showMoreHint": "Drag to open",
+  "couldNotLoadLibrary": "Couldn't load the library:\n{error}",
+  "@couldNotLoadLibrary": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "tryAgain": "Try again",
+  "noPlaylists": "No playlists.",
+  "noResults": "No results.",
+  "nothingToShowYet": "Nothing to show yet.",
+  "noSongPlaying": "No song is playing.",
+  "queueEmpty": "The queue is empty.",
+  "autoplay": "Autoplay",
+  "autoplaySubtitle": "Add similar content to the end of the queue",
+  "songsHeader": "Songs",
+  "songsCount": "{count, plural, =1{1 song} other{{count} songs}}",
+  "@songsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "albumsCount": "{count, plural, =1{1 album} other{{count} albums}}",
+  "@albumsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "artistsCount": "{count, plural, =1{1 artist} other{{count} artists}}",
+  "@artistsCount": {"placeholders": {"count": {"type": "int"}}},
+  "playlistsCount": "{count, plural, =1{1 playlist} other{{count} playlists}}",
+  "@playlistsCount": {"placeholders": {"count": {"type": "int"}}},
+  "play": "Play",
+  "pause": "Pause",
+  "nextTrack": "Next track",
+  "previousTrack": "Previous track",
+  "favorite": "Favorite",
+  "removeFavorite": "Remove favorite",
+  "nowPlaying": "Now Playing",
+  "queue": "Queue",
+  "playlistName": "Name",
+  "save": "Save",
+  "cancel": "Cancel",
+  "playlistSaveFailed": "Couldn't save: {error}",
+  "@playlistSaveFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "deletePlaylist": "Delete playlist",
+  "renamePlaylist": "Rename playlist",
+  "deletePlaylistConfirm": "Delete the playlist “{name}”?",
+  "@deletePlaylistConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "delete": "Delete",
+  "addToPlaylist": "Add to playlist",
+  "removeFromPlaylistAction": "Remove from playlist",
+  "addedToPlaylist": "Added to “{name}”",
+  "@addedToPlaylist": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "addToNamedPlaylist": "Add to “{name}”",
+  "@addToNamedPlaylist": {"placeholders": {"name": {"type": "String"}}},
+  "lastUsedPlaylist": "Last used playlist",
+  "playlistSuggestions": "Suggestions for this playlist",
+  "playlistSuggestionsSubtitle": "Based on the songs already in it",
+  "similarSuggestionsEmpty": "No new suggestions right now.",
+  "similarSuggestionsError": "Couldn't load suggestions right now.",
+  "favoriteMix": "Favorites mix",
+  "moveFavoritesToPlaylist": "Move favorite songs to playlist",
+  "moveFavoritesToPlaylistTitle": "Move favorite songs to a playlist?",
+  "moveFavoritesToPlaylistBody": "All favorite songs are added to a new playlist. Favorite albums and artists are removed from Favorites and can't be restored.",
+  "moveFavoritesToPlaylistConfirm": "Move",
+  "favoritesToPlaylistName": "Favorites {date}",
+  "@favoritesToPlaylistName": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "favoritesMovedToPlaylist": "Moved favorite songs to {name}",
+  "@favoritesMovedToPlaylist": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "favoritesMovedPartially": "Moved favorite songs to {name}, but couldn't remove every favorite mark.",
+  "@favoritesMovedPartially": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "noFavoritesToMove": "No favorites to move.",
+  "newPlaylist": "New playlist…",
+  "createMixFromSong": "Create mix from song",
+  "navidromeSimilarSongs": "Navidrome • similar songs",
+  "playNext": "Play next",
+  "addToQueue": "Add to queue",
+  "goToAlbum": "Go to album",
+  "goToArtist": "Go to artist",
+  "share": "Share",
+  "repeat": "Repeat",
+  "shuffle": "Shuffle",
+  "searchHint": "Search artists, albums, songs…",
+  "searchError": "Error: {error}",
+  "@searchError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsTitle": "Server settings",
+  "connectToServer": "Connect to your Navidrome server",
+  "serverUrl": "Server URL",
+  "username": "Username",
+  "password": "Password",
+  "connectAndSave": "Connect and save",
+  "couldNotConnect": "Couldn't connect: {error}",
+  "@couldNotConnect": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "offlineSectionTitle": "Offline",
+  "offlineStorageCap": "Storage limit",
+  "offlineStorageCapUnlimited": "Unlimited",
+  "offlineWifiOnly": "Wi-Fi only",
+  "offlineWifiOnlySubtitle": "Only download over Wi-Fi; ask before using cellular data",
+  "offlineFavoritesTitle": "Keep Favorites offline",
+  "offlineFavoritesSubtitle": "Automatically download every song you favorite",
+  "offlineUsage": "{used} of {cap} used",
+  "@offlineUsage": {
+    "placeholders": {
+      "used": {
+        "type": "String"
+      },
+      "cap": {
+        "type": "String"
+      }
+    }
+  },
+  "offlineUsageUnlimited": "{used} used",
+  "@offlineUsageUnlimited": {
+    "placeholders": {
+      "used": {
+        "type": "String"
+      }
+    }
+  },
+  "download": "Download",
+  "removeDownload": "Remove download",
+  "downloaded": "Downloaded",
+  "keepOffline": "Keep offline",
+  "removeOffline": "Remove offline",
+  "undo": "Undo",
+  "navDownloads": "Downloaded",
+  "downloadsEmptyTitle": "Nothing downloaded yet",
+  "downloadsEmptyHint": "Download songs, albums or playlists to listen offline. They will show up here — and in the Files app on your iPhone.",
+  "downloadRemoveSong": "Remove download",
+  "create": "Create",
+  "radioStations": "Stations",
+  "genreRadio": "Genre radio",
+  "artistRadio": "Artist radio",
+  "radioEmptyHint": "Sync while online to keep stations and radio seeds available here.",
+  "invalidRadioStream": "This radio station's stream address isn't supported.",
+  "lyrics": "Lyrics",
+  "noLyrics": "No lyrics are available for this song.",
+  "lyricsSync": "Sync",
+  "lyricsSyncEarlier": "Show lyrics earlier",
+  "lyricsSyncLater": "Show lyrics later",
+  "lyricsSyncReset": "Reset sync",
+  "removeFromQueue": "Remove from queue",
+  "holdArtworkForInfo": "Press and hold the artwork for song information",
+  "sleepTimer": "Sleep timer",
+  "sleepTimerDescription": "Playback pauses when the timer ends. Your queue stays intact.",
+  "sleepTimerMinutes": "{minutes} minutes",
+  "@sleepTimerMinutes": {
+    "placeholders": {
+      "minutes": { "type": "int" }
+    }
+  },
+  "sleepTimerRemaining": "Sleep timer: {time} left",
+  "@sleepTimerRemaining": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "cancelSleepTimer": "Cancel sleep timer",
+  "shareFailed": "Could not create a Navidrome share link",
+  "saveFilter": "Save filter",
+  "filterName": "Filter name",
+  "filterSaved": "Saved filter \"{name}\"",
+  "@filterSaved": { "placeholders": { "name": { "type": "String" } } },
+  "playlistRadio": "Playlist Radio",
+  "continueWithSimilar": "Continue with similar",
+  "tuneQueue": "Tune the queue",
+  "moreLikeThis": "More like this",
+  "lessLikeThis": "Less like this",
+  "queueTuned": "Upcoming songs adjusted",
+  "albumAudioDetails": "Album information",
+  "albumTotalSize": "Total size",
+  "albumFormats": "Formats",
+  "albumQualityRange": "Audio quality",
+  "quickPicks": "Quick Picks",
+  "swipeActionsHint": "Swipe for quick actions",
+  "newPlaylistEllipsis": "New playlist…",
+  "createdPlaylistWithSong": "{name} created with the song",
+  "@createdPlaylistWithSong": { "placeholders": { "name": { "type": "String" } } },
+  "createSimilarPlaylist": "Create playlist of similar songs",
+  "similarToTitle": "Similar to {title}",
+  "@similarToTitle": { "placeholders": { "title": { "type": "String" } } },
+  "nowPlayingLabel": "Now playing",
+  "clearSearch": "Clear",
+  "playerLyricsShort": "Lyrics",
+  "playerQueueShort": "Queue",
+  "playerSleepShort": "Sleep",
+  "playerTuneShort": "Tune",
+  "sleepTimerEndOfSong": "End of current song",
+  "likedSong": "Added to favorites",
+  "unlikedSong": "Removed from favorites",
+  "serverSetupTitle": "Installation",
+  "serverSetupSubtitle": "Optional features, remote access and security",
+  "serverSetupIntro": "Use this checklist to get more from your server. Playback keeps working when an optional feature is unavailable.",
+  "serverSetupChecking": "Checking server features…",
+  "serverSetupCheckAgain": "Check again",
+  "serverSetupAllReady": "All recommended checks are ready.",
+  "serverSetupActionsRecommended": "{count, plural, =1{1 improvement recommended} other{{count} improvements recommended}}",
+  "@serverSetupActionsRecommended": {"placeholders": {"count": {"type": "int"}}},
+  "serverSetupReady": "Ready",
+  "serverSetupActionRecommended": "Recommended",
+  "serverSetupNotDetected": "No matching data was found in the sample. The feature remains available to try.",
+  "serverSetupTip": "Tip",
+  "serverSetupReadGuide": "Read the setup guide",
+  "serverSetupRemoteTitle": "Listen away from home",
+  "serverSetupRemoteLocal": "This address works on your local network. Use Cloudflare Tunnel or Tailscale with an HTTPS address when you want access outside home.",
+  "serverSetupRemoteReady": "Your public server address is ready for listening outside your home network.",
+  "serverSetupSmartTitle": "Smart mixes",
+  "serverSetupSmartReady": "Your server is returning similar songs, so radio, tuning and playlist suggestions are available.",
+  "serverSetupSmartMissing": "Install AudioMuse AI and enable its Navidrome plugin for sonic mixes. Quick Picks, normal playback and the rest of the app still work.",
+  "serverSetupLyricsTitle": "Lyrics",
+  "serverSetupLyricsReady": "Your server returned lyrics for this library.",
+  "serverSetupLyricsMissing": "Install the nd-lyrics plugin or add lyrics tags to your files. The player remains fully usable without lyrics.",
+  "serverSetupSecurityTitle": "HTTPS",
+  "serverSetupSecurityReady": "Your server address uses HTTPS.",
+  "serverSetupSecurityHttp": "This local address uses HTTP. Put Cloudflare Tunnel or Tailscale in front of it before exposing the server to the internet.",
+  "serverHttpWarning": "HTTP is unencrypted. Use it only on a trusted local network. HTTPS is recommended.",
+  "serverSetupBackupTitle": "Keep a library backup",
+  "serverSetupBackupBody": "Back up the Navidrome database and music files before server upgrades. This app cannot inspect your backups.",
+  "serverSetupPluginNote": "These checks use only Navidrome's standard Subsonic API. Soengr never connects directly to an optional plugin service.",
+  "supportDeveloperTitle": "Support the developer",
+  "supportDeveloperSubtitle": "Share the app, send feedback or ask a question",
+  "supportDeveloperHeadline": "Made for your own music",
+  "supportDeveloperBody": "Soengr has no ads, tracking or subscription. Sharing it with another Navidrome listener is the best way to support its development.",
+  "supportShareTitle": "Share Soengr",
+  "supportShareSubtitle": "Send the app page to another listener",
+  "supportShareText": "Soengr is a private, independent client for Navidrome:",
+  "shareAppFailed": "Could not open sharing.",
+  "supportEmailTitle": "Email support",
+  "supportMailSubject": "Support: Soengr",
+  "supportMailBody": "Describe your question and include any details that may help:\n\n\n\nPlease do not include your server password.",
+  "websiteLabel": "Developer website",
+  "bugReportTitle": "Report a bug or suggestion",
+  "bugReportSubtitle": "Send a diagnostic log and describe what happened",
+  "bugReportMailSubject": "Soengr: bug report or suggestion",
+  "bugReportWhatHappened": "Describe what happened, what you expected, and how to reproduce it:",
+  "bugReportVersion": "App version",
+  "bugReportPlatform": "Platform",
+  "bugReportSheetTitle": "Send bug report",
+  "bugReportDescriptionLabel": "What happened?",
+  "bugReportDescriptionHint": "Describe the bug or suggestion. Include what you did just before it happened.",
+  "bugReportDiagnosticsNote": "App version, platform, local session metrics and recent errors are included automatically. Server address, username and password are removed.",
+  "bugReportAttachImage": "Image",
+  "bugReportAttachVideo": "Video",
+  "bugReportAttachmentHelp": "Attach one image or video: JPEG, PNG, HEIC, MP4 or MOV.",
+  "bugReportAttachmentTooLarge": "The file must be 40 MB or smaller.",
+  "bugReportAttachmentUnsupported": "This file format is not supported.",
+  "bugReportAttachmentPickFailed": "The file could not be selected.",
+  "bugReportRemoveAttachment": "Remove attachment",
+  "bugReportSend": "Send report",
+  "bugReportSending": "Preparing report…",
+  "bugReportShareFailed": "The report could not be opened.",
+  "bugReportOpened": "The report is ready to send.",
+  "bugReportEmptyDescription": "Briefly describe what happened.",
+  "privacyPolicyTitle": "Privacy policy",
+  "privacyPolicySubtitle": "How Soengr handles your data",
+  "requestRefundTitle": "Request a refund",
+  "requestRefundSubtitle": "Opens Apple's Report a Problem page",
+  "openLinkFailed": "The link could not be opened.",
+  "librarySyncTitle": "Load entire library",
+  "librarySyncSubtitle": "Fetches all songs, albums, artists and playlists from the server. This may take a while.",
+  "librarySyncLoading": "Loading library…",
+  "librarySyncComplete": "The entire library has been updated.",
+  "librarySyncFailed": "The library could not be fully updated. Check your connection and try again.",
+  "librarySyncWaiting": "Waiting to start…",
+  "librarySyncSongsProgress": "{count} songs fetched",
+  "librarySyncArtistsProgress": "{count} artists fetched",
+  "librarySyncAlbumsProgress": "{count} albums fetched",
+  "librarySyncPlaylistsLoading": "Fetching playlists…",
+  "librarySyncPlaylistsProgress": "{count} of {total} playlists fetched",
+  "librarySyncFinishing": "Finishing and updating the library…",
+  "librarySyncCanLeave": "You can leave Settings and return here to check progress.",
+  "@librarySyncSongsProgress": {"placeholders": {"count": {"type": "String"}}},
+  "@librarySyncArtistsProgress": {"placeholders": {"count": {"type": "String"}}},
+  "@librarySyncAlbumsProgress": {"placeholders": {"count": {"type": "String"}}},
+  "@librarySyncPlaylistsProgress": {"placeholders": {"count": {"type": "String"}, "total": {"type": "String"}}}
+}

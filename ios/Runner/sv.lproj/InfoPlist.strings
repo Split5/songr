@@ -1,0 +1,3 @@
+"CFBundleDisplayName" = "Söngr";
+"NSLocalNetworkUsageDescription" = "Söngr ansluter bara till den Navidrome-server du väljer i det lokala nätverket.";
+"NSPhotoLibraryUsageDescription" = "Söngr låter dig bifoga en skärmbild eller video till en felrapport som du själv väljer att skicka.";

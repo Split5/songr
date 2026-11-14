@@ -1,0 +1,16 @@
+.dart_tool/
+.venv/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+*.iml
+.idea/
+ios/Pods/
+ios/.symlinks/
+macos/Pods/
+.DS_Store
+*.ipa
+*.mobileprovision
+*.p12
+*.jks
+*.keystore

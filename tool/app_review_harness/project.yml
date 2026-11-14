@@ -1,0 +1,50 @@
+name: SongrReviewHarness
+
+options:
+  bundleIdPrefix: se.simonbystrom
+  deploymentTarget:
+    iOS: "17.0"
+  minimumXcodeGenVersion: "2.42.0"
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    DEVELOPMENT_TEAM: LVV8VBC259
+    CODE_SIGN_STYLE: Automatic
+
+targets:
+  ReviewHost:
+    type: application
+    platform: iOS
+    sources:
+      - path: ReviewHost
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: se.simonbystrom.songrreviewhost
+        GENERATE_INFOPLIST_FILE: YES
+        TARGETED_DEVICE_FAMILY: "1"
+
+  ReviewHarnessUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: ReviewHarnessUITests
+    dependencies:
+      - target: ReviewHost
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: se.simonbystrom.songrreviewhost.uitests
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_NSPhotoLibraryUsageDescription: Export the App Review screen recording.
+        TEST_TARGET_NAME: ReviewHost
+
+schemes:
+  ReviewHarnessUITests:
+    build:
+      targets:
+        ReviewHost: all
+        ReviewHarnessUITests: [test]
+    test:
+      config: Debug
+      targets:
+        - ReviewHarnessUITests
